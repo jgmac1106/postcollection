@@ -20,6 +20,7 @@ hr.new1 {
   grid-auto-rows: 120px;
    column-gap: .5rem;
   row-gap: 2rem;
+  margin-top: 2%;
   
 }
 .pubcollection ul {
