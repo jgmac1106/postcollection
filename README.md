@@ -1,4 +1,4 @@
-Collection of Post
+Collection of Posts
 =================
 
 Experimenting with collections of posts as pblication and building cards using CSS Grid
