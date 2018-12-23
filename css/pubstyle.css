@@ -17,17 +17,13 @@ hr.new1 {
 .pubcollection {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr;
-  grid-auto-rows: 1fr 2fr 1fr;
+  grid-auto-rows: 1fr 1fr 2fr 1fr;
    column-gap: .5rem;
   row-gap: 2rem;
   margin-top: 2%;
   
 }
-.pubcollection .tagfr1 {
-  grid-row: 1;
-  grid-column: 1;
-  font-size:1.5em;
-}
+
 .pubcollection ul {
   display: inline;
   text-decoration: none;
@@ -38,54 +34,59 @@ hr.new1 {
 }
 .PubTitle {
    grid-column: 3/span 4;
-        grid-row: 1/span 2;
+        grid-row: 1/span 3;
 }
 .PubTitle h1 {
   font-size:600%;
 }
+.sectionheader {
+  grid-column: 2/span 6;
+  grid-row: 1;
+  border-bottom: .2rem solid;
+}
 .MainArticleImg {
   grid-column: 2/span 4;
-    grid-row: 4/span 3;
+    grid-row: 2/span 3;
     
 }
   
 .MainArticlePub{
   grid-column: 6/span 2;
-    grid-row: 4/span 3;
+    grid-row: 2/span 3;
 
   
 }
 .smallArticle1 {
   grid-column: 2/span 2;
-  grid-row:1/span 3;
+  grid-row:2/span 3;
 }
 .smallArticle2 {
    grid-column: 4/span 2;
-  grid-row:1/span 3;
+  grid-row:2/span 3;
 }
 .smallArticle3 {
    grid-column: 6/span 2;
-  grid-row:1/span 2;
+  grid-row:2/span 2;
 }
 .smallArticle4 {
  grid-column: 2/span 2;
-  grid-row:3/span 3;
+  grid-row:4/span 2;
 }
 .smallArticle5 {
   grid-column: 4/span 2;
-  grid-row:3/span 3;
+  grid-row:4/span 2;
 }
 .smallArticle6 {
    grid-column: 6/span 2;
-  grid-row:3/span 3;
+  grid-row:4/span 2;
 }
 .medArticle1 {
   grid-column: 2/span 3;
-  grid-row: 1/span 2;
+  grid-row: 2/span 2;
 }
 .medArticle2 {
   grid-column: 5/span 3;
-  grid-row:1/span 2;
+  grid-row:2/span 2;
 }
 
 .box1 {
