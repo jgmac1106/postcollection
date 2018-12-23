@@ -1,4 +1,4 @@
-4/* CSS files add styling rules to your content */
+
 
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
@@ -165,4 +165,4 @@ height: 100%;
 .card5050 .info {
    grid-column: 1/span 3;
   grid-row: 3;
-}
+
